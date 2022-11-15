@@ -1,0 +1,88 @@
+<html>
+<head>
+<title> Badminton Register</title>
+<link rel="stylesheet" href="badminton.css">
+<link rel="stylesheet" href="homecss.css">
+<link rel="stylesheet" href="homecss2.css">
+
+</head>
+<header>
+<a href="#" class="logo">Sivasakthi Fitness</a>
+<div class="togglemenu" onclick="togglemenu();"></div>
+<ul class="navigation">
+<li><a href="fittness-club.php">Home</a></li>
+</ul>
+</header>
+<body>
+<label class="logo"><center><u>Badminton Registration</u></center></label>
+<div class="main">
+<div class="register">
+
+<h2>Register here</h2>
+<form id="register" method="post" action="badmitonphp.php">
+<label>Name:</label>
+<br>
+<input type="text" name="name" id="name" placeholder="Enter your name" pattern="[a-zA-Z]+$" required>
+<br><br>
+<label>Parents name:</label>
+<br>
+<input type="text" name="parents_name" id="name" placeholder="Enter your Parents name" pattern="[a-zA-Z]+$" required>
+<br><br>
+<label>Gender:</label>
+<br><br>
+<input type="radio" name="gender" id="male" value="male" required>
+<span id="male">Male</span>
+<input type="radio" name="gender" id="female" value="female" required>
+<span id="female">Female</span>
+<br><br>
+<label>Address:</label>
+<br>
+<input type="text" name="address" id="name" placeholder="Enter your address" required>
+<br><br>
+<label>Phone Number:</label>
+<br>
+<input type="number" name="number" id="name" placeholder="Enter your number" required>
+<br><br>
+<label>Email:</label>
+<br>
+<input type="email" name="email" id="name" placeholder="Enter your Valid email" required>
+<br><br>
+<label>Date of Birth:</label>
+<br>
+<input type="date" name="dateofbirth" id="DOB" placeholder="Enter your Date of Birth" required>
+<br><br>
+<label>Age:</label>
+<br>
+<input type="number" name="age"  id="name" placeholder="Enter your age" required>
+<br><br>
+<label>Identification Mark:</label>
+<br>
+<input type="text" name="identificationmark" id="name" placeholder="Enter your Identification Mark" required>
+<br><br>
+<label>School/CollegeName:</label>
+<br>
+<input type="text" name="schoolcollege" id=" name" placeholder="Enter your school/college name" required>
+<br><br>
+<label>Tournment Matches:</label>
+<br><br>
+<input type="radio" name="tournament" id="Willing" value="yes"required>
+<span id="male">Yes</span>
+<input type="radio" name="tournament" id="Unwilling" value="no" required>
+<span id="no">No</span>
+<br><br>
+<label>Slot:</label>
+<br><br>
+<input type="radio" name="slot" id="morning" value="5.30AM to 9.00AM">
+<span id="male">Morning<br>5.30AM to 9.00AM</span>
+<br>
+<input type="radio" name="slot" id="evening" value="4.30PM to 8.45PM">
+<span id="no">Evening<br>4.30PM to 8.45PM</span>
+<br>
+<input type="radio" name="slot" id="both" value="Both">
+<span id="no">Both<br></span>
+<button value="submit" id="submit">SUBMIT</button>
+</form>
+</div>
+</div>
+</body>
+</html>

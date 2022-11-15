@@ -1,0 +1,45 @@
+header{
+	height:100vh;
+	width:100%;
+	background-position:center;
+}
+
+.content{
+  position:absolute;
+  top:15%;
+  bottom:30%;
+  }
+.content h1{
+   
+   color:black;
+   background-color:yellow;
+}
+.about1 img{
+    
+     position:absolute;
+     top:50%;
+     left:-1%;
+	 width:330px;
+	 height:500px;
+}
+.about1 h1{
+	background-color:yellow;
+color:red;
+position:absolute;
+top:42%;
+right:40%;
+}
+.about2 img{
+     position:absolute;
+     top:50%;
+     right:0%;
+	 width:290px;
+	 height:500px;
+}
+.about3 img{
+     position:absolute;
+     top:50%;
+     left:22%;
+	 width:883px;
+	 height:500px;
+}
